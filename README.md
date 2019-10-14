@@ -10,6 +10,9 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` 
 
 Bonus: Can you do this in one pass?
 
+[Solution (naive + one pass](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day1.py)
+
+
 ---
 
 ### Day 2 [Hard]
