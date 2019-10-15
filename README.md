@@ -61,4 +61,6 @@ For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` sh
 
 You can modify the input array in-place.
 
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day4.py)
+
 ---
