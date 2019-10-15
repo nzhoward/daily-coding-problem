@@ -24,6 +24,9 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 Follow-up: what if you can't use division?
 
+[Solution (naive + no division)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day2.py)
+
+
 ---
 ### Day 3 [Medium]
 
