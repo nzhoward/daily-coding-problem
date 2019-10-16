@@ -13,7 +13,6 @@ Bonus: Can you do this in one pass?
 [Solution (naive + one pass)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day1.py)
 
 ---
-
 ### Day 2 [Hard]
 
 This problem was asked by Uber.
@@ -25,7 +24,6 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 Follow-up: what if you can't use division?
 
 [Solution (naive + no division)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day2.py)
-
 
 ---
 ### Day 3 [Medium]
@@ -65,7 +63,6 @@ You can modify the input array in-place.
 
 [Solution (bucket sort)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day4-bucket.py)
 
-
 ---
 ### Day 5 [Medium]
 This problem was asked by Jane Street.
@@ -80,5 +77,6 @@ def cons(a, b):
     return pair
 Implement car and cdr.
 ```
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day5.py)
 
 ---
