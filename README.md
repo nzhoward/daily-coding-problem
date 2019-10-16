@@ -75,8 +75,9 @@ def cons(a, b):
     def pair(f):
         return f(a, b)
     return pair
-Implement car and cdr.
 ```
+Implement car and cdr.
+
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day5.py)
 
 ---
