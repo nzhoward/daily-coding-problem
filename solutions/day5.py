@@ -3,23 +3,22 @@ def cons(a, b):
         return f(a, b)
     return pair
 
-def car(cons1):
+def car(cons):
     def first(a, b):
         return a
-    return cons1(first)
+    return cons(first)
 
-def cdr(cons1):
+def cdr(cons):
     def second(a, b):
         return b
-    return cons1(second)
+    return cons(second)
 
-def mult(cons1):
+def mult(cons):
     def mult(a, b):
         return a**b
-    return cons1(mult)
+    return cons(mult)
 
 
-cons1 = cons(3, 4)
-assert car(cons1) == 3
-assert cdr(cons1) == 4
-print(mult(cons1))
+assert car(cons(3, 4)) == 3
+assert cdr(cons(3, 4)) == 4
+print(mult(cons(3, 4)))
