@@ -1,48 +1,38 @@
-nums_1 = [1, 2, 3, 4, 5]
-nums_2 = [3, 2, 1]
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
-def naive(nums):
-    product = 1
-    res = []
-    for i in nums:
-        product *= i
+def serialize(in_node):
+    def do_serialize(the_node, tree_string):
+        if the_node is None:
+            tree_string += 'None,'
+        else:
+            tree_string += str(the_node.val) + ','
+            tree_string = do_serialize(the_node.left, tree_string)
+            tree_string = do_serialize(the_node.right, tree_string)
+        return tree_string
 
-    for i in nums:
-        res.append(int(product / i))
-
-    print(res)
-    return res
-
-
-assert naive(nums_1) == [120, 60, 40, 30, 24]
-assert naive(nums_2) == [2, 3, 6]
+    ret = do_serialize(in_node, '')
+    print(ret)
+    return ret
 
 
-def no_division(nums):
-    left = []
-    for i in nums:
-        left.append(None)
-    left[0] = 1
-    
-    for i in range(1, len(nums)):
-        left[i] = nums[i - 1] * left[i - 1]
+def deserialize(tree_string):
+    def do_deserialize(node_list):
+        if node_list[0] == 'None':
+            node_list.pop(0)
+            return None
+        root = Node(node_list[0])
+        node_list.pop(0)
+        root.left = do_deserialize(node_list)
+        root.right = do_deserialize(node_list)
+        return root
 
-    right = []
-    for i in nums:
-        right.append(None)
-    right[-1] = 1
+    return do_deserialize(tree_string.split(','))
+        
 
-    for i in range(len(nums) - 2, -1, -1):
-        right[i] = nums[i + 1] * right[i + 1]
-
-    res = []
-    for i in range(len(nums)):
-        res.append(left[i] * right[i])
-
-    print(res)
-    return res
-
-
-assert no_division(nums_1) == [120, 60, 40, 30, 24]
-assert no_division(nums_2) == [2, 3, 6]
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
