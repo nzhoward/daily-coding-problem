@@ -115,6 +115,8 @@ For example, the following tree has 5 unival subtrees:
 1   1
 ```
 
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day8.py)
+
 ---
 ### Day 9 [Hard]
 This problem was asked by Airbnb.
