@@ -1,45 +1,48 @@
-inputList = [1, 2, 3, 4, 5]
-inputList2 = [3, 2, 1]
+nums_1 = [1, 2, 3, 4, 5]
+nums_2 = [3, 2, 1]
 
-def naive(inputList):
+
+def naive(nums):
     product = 1
-    outList = []
-    for i in inputList:
+    res = []
+    for i in nums:
         product *= i
 
-    for i in inputList:
-        outList.append(int(product / i))
+    for i in nums:
+        res.append(int(product / i))
 
-    print(outList)
-    return outList
-
-assert naive(inputList) == [120, 60, 40, 30, 24]
-assert naive(inputList2) == [2, 3, 6]
+    print(res)
+    return res
 
 
-def noDivision(inputList):
+assert naive(nums_1) == [120, 60, 40, 30, 24]
+assert naive(nums_2) == [2, 3, 6]
+
+
+def no_division(nums):
     left = []
-    for i in inputList:
+    for i in nums:
         left.append(None)
     left[0] = 1
     
-    for i in range(1, len(inputList)):
-        left[i] = inputList[i - 1] * left[i - 1]
+    for i in range(1, len(nums)):
+        left[i] = nums[i - 1] * left[i - 1]
 
     right = []
-    for i in inputList:
+    for i in nums:
         right.append(None)
     right[-1] = 1
 
-    for i in range(len(inputList) - 2, -1, -1):
-        right[i] = inputList[i + 1] * right[i + 1]
+    for i in range(len(nums) - 2, -1, -1):
+        right[i] = nums[i + 1] * right[i + 1]
 
-    ans = []
-    for i in range(len(inputList)):
-        ans.append(left[i] * right[i])
+    res = []
+    for i in range(len(nums)):
+        res.append(left[i] * right[i])
 
-    print(ans)
-    return ans
+    print(res)
+    return res
 
-assert noDivision(inputList) == [120, 60, 40, 30, 24]
-assert noDivision(inputList2) == [2, 3, 6]
+
+assert no_division(nums_1) == [120, 60, 40, 30, 24]
+assert no_division(nums_2) == [2, 3, 6]
