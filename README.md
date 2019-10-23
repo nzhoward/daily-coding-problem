@@ -143,7 +143,7 @@ For example, given the query string `de` and the set of strings `[dog, deer, dea
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day11.py)
+[Solution (Hashmap)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day11.py)
 
 **MISSING: TRIE SOLUTION**
 
