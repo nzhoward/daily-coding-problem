@@ -145,6 +145,8 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day11.py)
 
+**MISSING: TRIE SOLUTION**
+
 ---
 ### Day 12 [Hard]
 This problem was asked by Amazon.
