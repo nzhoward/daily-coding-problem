@@ -166,3 +166,21 @@ For example, if N is 4, then there are 5 unique ways:
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
 ---
+### Bonus: Finding The Smallest Interval Of K Sorted Lists
+This interesting and difficult problem was asked by Google recently.
+
+Given K sorted lists of integers, return the smallest interval (inclusive) that contains at least one element from each list. If there are multiple intervals of the same size, return the one that starts at the smallest number.
+
+For example, given:
+```python
+[[0, 1, 4, 17, 20, 25, 31],
+ [5, 6, 10],
+ [0, 3, 7, 8, 12]]
+```
+The smallest range here is `[3, 5]`, since it contains `4` from the first list, `5` from the second list, and `3` from the third list.
+
+Before we dive into the solution, you should take a moment to think of a solution yourself!
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/min-interval-klist.py)
+
+---
