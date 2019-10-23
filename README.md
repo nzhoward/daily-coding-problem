@@ -133,6 +133,8 @@ This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day10.py)
+
 ---
 ### Day 11 [Medium]
 This problem was asked by Twitter.
