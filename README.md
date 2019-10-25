@@ -191,7 +191,7 @@ Given an integer `k` and a string `s`, find the length of the longest substring 
 
 For example, given `s = "abcba"` and `k = 2`, the longest substring with `k` distinct characters is `"bcb"`.
 
-[Solution (Hashmap)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day13.py)
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day13.py)
 
 ---
 ### Day 14 [Medium]
