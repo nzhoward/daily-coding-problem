@@ -5,7 +5,7 @@
 |||||||
 |---|---|---|---|---|---|
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
-|✅day7|✅day8|⬜️day9|✅day10|⬜️day11|⬜️day12|
+|✅day7|✅day8|✅day9|✅day10|⬜️day11|⬜️day12|
 |✅day13|✅day14|✅day15|✅day16|⬜️day17|⬜️day18|
 
 ---
@@ -136,6 +136,8 @@ Given a list of integers, write a function that returns the largest sum of non-a
 For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2`, `6`, and `5`. `[5, 1, 1, 5]` should return `10`, since we pick `5` and `5`.
 
 Follow-up: Can you do this in O(N) time and constant space?
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day9.py)
 
 ---
 ### Day 10 [Medium]
