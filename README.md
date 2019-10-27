@@ -1,6 +1,8 @@
 # daily-coding-problem
 
-### Checklist
+### Checklist 
+
+✅⬜️
 
 |||||||
 |---|---|---|---|---|---|
@@ -8,8 +10,6 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|⬜️day17|⬜️day18|
 
-✅
-⬜️
 
 ---
 
@@ -179,6 +179,8 @@ For example, if N is 4, then there are 5 unique ways:
 * 2, 2
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
+
+[Solution (Hashmap)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day12.py)
 
 ---
 ### Bonus: Finding The Smallest Interval Of K Sorted Lists
