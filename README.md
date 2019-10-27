@@ -222,6 +222,8 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day16.py)
+
 ---
 ### Day 17 [Hard]
 This problem was asked by Google.
