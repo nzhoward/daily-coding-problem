@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
-|✅day13|✅day14|✅day15|✅day16|⬜️day17|⬜️day18|
+|✅day13|✅day14|✅day15|✅day16|✅day17|⬜️day18|
 
 
 ---
@@ -277,5 +277,7 @@ Note:
 The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day17.py)
 
 ---
