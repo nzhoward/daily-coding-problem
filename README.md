@@ -296,6 +296,14 @@ For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[1
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
 ---
-### Bonus
+### Bonus: Anagram Indices
+
+Given a `word` and a string `S`, find all starting indices in `S` which are anagrams of `word`.
+
+For example, given that `word` is “ab”, and `S` is “abxaba”, return 0, 3, and 4.
 
 https://www.dailycodingproblem.com/blog/anagram-indices/
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/anagram-indices.py)
+
+---
