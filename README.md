@@ -199,6 +199,8 @@ The smallest range here is `[3, 5]`, since it contains `4` from the first list, 
 
 Before we dive into the solution, you should take a moment to think of a solution yourself!
 
+https://www.dailycodingproblem.com/blog/smallest-interval-of-k-sorted-lists/
+
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/min-interval-klist.py)
 
 ---
