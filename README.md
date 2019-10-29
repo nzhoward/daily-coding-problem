@@ -9,6 +9,7 @@
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|⬜️day18|
+|⬜️day19|
 
 
 ---
@@ -297,7 +298,6 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 
 ---
 ### Bonus: Anagram Indices
-
 Given a `word` and a string `S`, find all starting indices in `S` which are anagrams of `word`.
 
 For example, given that `word` is “ab”, and `S` is “abxaba”, return 0, 3, and 4.
@@ -305,5 +305,13 @@ For example, given that `word` is “ab”, and `S` is “abxaba”, return 0, 3
 https://www.dailycodingproblem.com/blog/anagram-indices/
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/anagram-indices.py)
+
+---
+### Day 19 [Medium]
+This problem was asked by Facebook.
+
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
 ---
