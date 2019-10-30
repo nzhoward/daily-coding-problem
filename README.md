@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
-|✅day13|✅day14|✅day15|✅day16|✅day17|⬜️day18|
+|✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|
 
 
@@ -297,6 +297,8 @@ For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[1
 * `8 = max(7, 8, 7)`
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+
+[Solution (deque)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day18.py)
 
 ---
 ### Bonus: Anagram Indices
