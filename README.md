@@ -298,7 +298,7 @@ For example, given `array = [10, 5, 2, 7, 8, 7]` and `k = 3`, we should get: `[1
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-[Solution (deque)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day18.py)
+[Solution (Deque)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day18.py)
 
 ---
 ### Bonus: Anagram Indices
