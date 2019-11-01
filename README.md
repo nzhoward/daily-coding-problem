@@ -9,7 +9,7 @@
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
-|✅day19|✅day20|
+|✅day19|✅day20|⬜️day21|⬜️day22|
 
 
 ---
@@ -333,5 +333,23 @@ In this example, assume nodes with the same value are the exact same node object
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day20.py)
+
+---
+### Day 21 [Easy]
+This problem was asked by Facebook.
+
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+---
+### Day 22 [Medium]
+This problem was asked by Microsoft.
+
+Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
+
+For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
+
+Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
 ---
