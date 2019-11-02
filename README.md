@@ -9,7 +9,7 @@
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
-|✅day19|✅day20|⬜️day21|⬜️day22|
+|✅day19|✅day20|⬜️day21|⬜️day22|⬜️day23|
 
 
 ---
@@ -351,5 +351,24 @@ Given a dictionary of words and a string made up of those words (no spaces), ret
 For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+---
+### Day 23 [Easy]
+This problem was asked by Google.
+
+You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
+
+Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
+
+For example, given the following board:
+
+```
+[[f, f, f, f],
+[t, t, f, t],
+[f, f, f, f],
+[f, f, f, f]]
+```
+
+and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is `7`, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
 
 ---
