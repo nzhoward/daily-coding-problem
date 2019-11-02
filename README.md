@@ -9,7 +9,7 @@
 |✅day1|✅day2|✅day3|✅day4|✅day5|⬜️day6|
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
-|✅day19|✅day20|⬜️day21|⬜️day22|⬜️day23|
+|✅day19|✅day20|⬜️day21|✅day22|⬜️day23|
 
 
 ---
@@ -351,6 +351,8 @@ Given a dictionary of words and a string made up of those words (no spaces), ret
 For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day22.py)
 
 ---
 ### Day 23 [Easy]
