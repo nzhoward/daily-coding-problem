@@ -394,6 +394,8 @@ Design a binary tree node class with the following methods:
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day24.py)
+
 ---
 ### Day 25 [Hard]
 This problem was asked by Facebook.
