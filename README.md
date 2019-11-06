@@ -420,6 +420,6 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-[Solution (O(m+h) + O(h))](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day26.py)
+[Solution (Naive + Dict + Two Pointers)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day26.py)
 
 ---
