@@ -14,7 +14,7 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
-|⬜️day25|✅day26
+|⬜️day25|✅day26|⬜️day27|
 
 
 ---
@@ -421,5 +421,15 @@ The list is very long, so making more than one pass is prohibitively expensive.
 Do this in constant space and in one pass.
 
 [Solution (Naive + Dict + Two Pointers)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day26.py)
+
+---
+### Day 27 [Easy]
+This problem was asked by Facebook.
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
 
 ---
