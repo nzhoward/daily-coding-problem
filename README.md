@@ -445,7 +445,7 @@ For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 
 
 https://www.dailycodingproblem.com/blog/longest-increasing-subsequence/
 
-[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/longest-increasing-subsequence.py)
+[Solution (naive + dp)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/longest-increasing-subsequence.py)
 
 ---
 
