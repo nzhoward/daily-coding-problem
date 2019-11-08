@@ -14,7 +14,7 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
-|⬜️day25|✅day26|✅day27|⬜️day28|
+|⬜️day25|✅day26|✅day27|✅day28|
 
 
 ---
@@ -466,5 +466,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day28.py)
 
 ---
