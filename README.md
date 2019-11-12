@@ -14,7 +14,7 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
-|⬜️day25|✅day26|✅day27|✅day28|✅day29|⬜️day30|
+|⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |⬜️day31|⬜️day32|
 
 
@@ -491,6 +491,8 @@ Compute how many units of water remain trapped on the map in O(N) time and O(1) 
 For example, given the input `[2, 1, 2]`, we can hold 1 unit of water in the middle.
 
 Given the input `[3, 0, 1, 3, 0, 5]`, we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day30.py)
 
 ---
 ### Day 31 [Easy]
