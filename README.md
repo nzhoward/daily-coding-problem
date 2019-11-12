@@ -15,7 +15,7 @@
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
-|⬜️day31|⬜️day32|
+|✅day31|⬜️day32|
 
 
 ---
@@ -501,6 +501,8 @@ This problem was asked by Google.
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day31.py)
 
 ---
 ### Day 32 [Hard]
