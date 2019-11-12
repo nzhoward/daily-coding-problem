@@ -14,7 +14,7 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
-|⬜️day25|✅day26|✅day27|✅day28|⬜️day29|⬜️day30|
+|⬜️day25|✅day26|✅day27|✅day28|✅day29|⬜️day30|
 |⬜️day31|⬜️day32|
 
 
@@ -477,6 +477,8 @@ This problem was asked by Amazon.
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day29.py)
 
 ---
 ### Day 30 [Medium]
