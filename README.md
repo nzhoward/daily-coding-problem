@@ -14,7 +14,8 @@
 |✅day7|✅day8|✅day9|✅day10|⬜️day11|✅day12|
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
-|⬜️day25|✅day26|✅day27|✅day28|
+|⬜️day25|✅day26|✅day27|✅day28|⬜️day29|⬜️day30|
+|⬜️day31|⬜️day32|
 
 
 ---
@@ -468,5 +469,41 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 ```
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day28.py)
+
+---
+### Day 29 [Easy]
+This problem was asked by Amazon.
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+---
+### Day 30 [Medium]
+This problem was asked by Facebook.
+
+You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
+
+Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
+
+For example, given the input `[2, 1, 2]`, we can hold 1 unit of water in the middle.
+
+Given the input `[3, 0, 1, 3, 0, 5]`, we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+---
+### Day 31 [Easy]
+This problem was asked by Google.
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
+
+---
+### Day 32 [Hard]
+This problem was asked by Jane Street.
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
 
 ---
