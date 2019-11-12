@@ -15,7 +15,7 @@
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
-|✅day31|⬜️day32|
+|✅day31|⬜️day32|⬜️day33|
 
 
 ---
@@ -511,5 +511,24 @@ This problem was asked by Jane Street.
 Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
 
 There are no transaction costs and you can trade fractional quantities.
+
+---
+### Day 33 [Easy]
+This problem was asked by Microsoft.
+
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+
+Recall that the median of an even-numbered list is the average of the two middle numbers.
+
+For example, given the sequence `[2, 1, 5, 7, 2, 0, 5]`, your algorithm should print out:
+```
+2
+1.5
+2
+3.5
+2
+2
+2
+```
 
 ---
