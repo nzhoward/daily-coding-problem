@@ -15,7 +15,7 @@
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
-|✅day31|⬜️day32|⬜️day33|⬜️day34|
+|✅day31|⬜️day32|✅day33|⬜️day34|
 
 
 ---
@@ -530,6 +530,8 @@ For example, given the sequence `[2, 1, 5, 7, 2, 0, 5]`, your algorithm should p
 2
 2
 ```
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day33.py)
 
 ---
 ### Day 34 [Medium]
