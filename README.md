@@ -15,7 +15,7 @@
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
-|✅day31|⬜️day32|✅day33|⬜️day34|
+|✅day31|⬜️day32|✅day33|⬜️day34|⬜️day35|
 
 
 ---
@@ -542,5 +542,15 @@ Given a string, find the palindrome that can be made by inserting the fewest num
 For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
 
 As another example, given the string "google", you should return "elgoogle".
+
+---
+### Day 35 [Hard]
+This problem was asked by Google.
+
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+Do this in linear time and in-place.
+
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
 ---
