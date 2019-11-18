@@ -16,6 +16,7 @@
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|⬜️day35|⬜️day36|
+|⬜️day37|⬜️day38|
 
 
 ---
@@ -558,5 +559,21 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
+
+---
+### Day 37 [Easy]
+This problem was asked by Google.
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
+
+You may also use a list or array to represent a set.
+
+---
+### Day 38 [Hard]
+This problem was asked by Microsoft.
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 ---
