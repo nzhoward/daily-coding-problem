@@ -16,7 +16,7 @@
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|⬜️day36|
-|⬜️day37|⬜️day38|⬜️day39|⬜️day40|
+|✅day37|⬜️day38|⬜️day39|⬜️day40|
 
 
 ---
@@ -571,6 +571,8 @@ The power set of a set is the set of all its subsets. Write a function that, giv
 For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
 
 You may also use a list or array to represent a set.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day37.py)
 
 ---
 ### Day 38 [Hard]
