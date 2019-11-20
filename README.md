@@ -15,7 +15,7 @@
 |✅day13|✅day14|✅day15|✅day16|✅day17|✅day18|
 |✅day19|✅day20|❎day21|✅day22|✅day23|✅day24|
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
-|✅day31|⬜️day32|✅day33|⬜️day34|✅day35|⬜️day36|
+|✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|
 
 
@@ -561,6 +561,8 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day36.py)
 
 ---
 ### Day 37 [Easy]
