@@ -18,8 +18,7 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |⬜️day43|⬜️day44|⬜️day45|⬜️day46|⬜️day47|⬜️day48|
-|⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|⬜️day54|
-|⬜️day55|⬜️day56|⬜️day57|⬜️day58|
+|⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
 
 
 ---
