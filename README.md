@@ -633,3 +633,128 @@ Integers can appear more than once in the list. You may assume all numbers in th
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
 ---
+### Day 43 [Easy]
+This problem was asked by Amazon.
+
+Implement a stack that has the following methods:
+
+* push(val), which pushes an element onto the stack
+* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+* max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
+
+---
+### Day 44 [Medium]
+This problem was asked by Google.
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
+
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example, a sorted list has zero inversions. The array `[2, 4, 1, 3, 5]` has three inversions: (2, 1), (4, 1), and (4, 3). The array `[5, 4, 3, 2, 1]` has ten inversions: every distinct pair forms an inversion.
+
+---
+### Day 45 [Easy]
+This problem was asked by Two Sigma.
+
+Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+---
+### Day 46 [Hard]
+This problem was asked by Amazon.
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
+---
+### Day 47 [Easy]
+This problem was asked by Facebook.
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given `[9, 11, 8, 5, 7, 10]`, you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+---
+### Day 48 [Medium]
+This problem was asked by Google.
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+`[a, b, d, e, c, f, g]`
+
+And the following inorder traversal:
+`[d, b, e, a, f, c, g]`
+
+You should return the following tree:
+```
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+```
+
+---
+### Day 49 [Medium]
+This problem was asked by Amazon.
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array `[34, -50, 42, 14, -5, 86]`, the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array `[-5, -1, -8, -9]`, the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
+
+---
+### Day 50 [Easy]
+This problem was asked by Microsoft.
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+---
+### Day 51 [Medium]
+This problem was asked by Facebook.
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+---
+### Day 52 [Hard]
+This problem was asked by Google.
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+`set(key, value)`: sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+
+`get(key)`: gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+---
+### Day 53 [Medium]
+This problem was asked by Apple.
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+---
