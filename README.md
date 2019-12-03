@@ -17,7 +17,7 @@
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
-|✅day43|⬜️day44|⬜️day45|⬜️day46|⬜️day47|⬜️day48|
+|✅day43|⬜️day44|✅day45|⬜️day46|⬜️day47|⬜️day48|
 |⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
 
 
@@ -662,6 +662,8 @@ For example, a sorted list has zero inversions. The array `[2, 4, 1, 3, 5]` has 
 This problem was asked by Two Sigma.
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day45.py)
 
 ---
 ### Day 46 [Hard]
