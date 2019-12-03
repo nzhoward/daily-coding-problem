@@ -17,7 +17,7 @@
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
-|✅day43|⬜️day44|✅day45|⬜️day46|⬜️day47|⬜️day48|
+|✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
 |⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
 
 
@@ -680,6 +680,8 @@ This problem was asked by Facebook.
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
 
 For example, given `[9, 11, 8, 5, 7, 10]`, you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+[Solution (naive + one pass)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day45.py)
 
 ---
 ### Day 48 [Medium]
