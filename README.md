@@ -17,7 +17,7 @@
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
-|⬜️day43|⬜️day44|⬜️day45|⬜️day46|⬜️day47|⬜️day48|
+|✅day43|⬜️day44|⬜️day45|⬜️day46|⬜️day47|⬜️day48|
 |⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
 
 
@@ -642,6 +642,8 @@ Implement a stack that has the following methods:
 * `max()`, which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
 Each method should run in constant time.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day43.py)
 
 ---
 ### Day 44 [Medium]
