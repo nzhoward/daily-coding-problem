@@ -681,7 +681,7 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given `[9, 11, 8, 5, 7, 10]`, you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-[Solution (naive + one pass)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day45.py)
+[Solution (naive + one pass)](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day47.py)
 
 ---
 ### Day 48 [Medium]
