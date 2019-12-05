@@ -716,7 +716,7 @@ Given the array `[-5, -1, -8, -9]`, the maximum sum would be 0, since we would n
 
 Do this in O(N) time.
 
-[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day45.py)
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day49.py)
 
 ---
 ### Day 50 [Easy]
