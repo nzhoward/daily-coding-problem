@@ -18,7 +18,7 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
-|✅day49|⬜️day50|⬜️day51|⬜️day52|✅day53|
+|✅day49|✅day50|⬜️day51|⬜️day52|✅day53|
 
 
 ---
@@ -735,6 +735,8 @@ For example, given the following tree:
 3  2  4  5
 ```
 You should return 45, as it is (3 + 2) * (4 + 5).
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day50.py)
 
 ---
 ### Day 51 [Medium]
