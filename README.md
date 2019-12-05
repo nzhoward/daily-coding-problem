@@ -18,7 +18,7 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
-|✅day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
+|✅day49|⬜️day50|⬜️day51|⬜️day52|✅day53|
 
 
 ---
@@ -763,5 +763,7 @@ Each operation should run in O(1) time.
 This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day53.py)
 
 ---
