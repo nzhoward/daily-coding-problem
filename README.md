@@ -18,7 +18,7 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
-|⬜️day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
+|✅day49|⬜️day50|⬜️day51|⬜️day52|⬜️day53|
 
 
 ---
@@ -715,6 +715,8 @@ For example, given the array `[34, -50, 42, 14, -5, 86]`, the maximum sum would 
 Given the array `[-5, -1, -8, -9]`, the maximum sum would be 0, since we would not take any elements.
 
 Do this in O(N) time.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day45.py)
 
 ---
 ### Day 50 [Easy]
