@@ -18,7 +18,8 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
-|✅day49|✅day50|⬜️day51|⬜️day52|✅day53|
+|✅day49|✅day50|⬜️day51|⬜️day52|✅day53|⬜️day54|
+|⬜️day55|⬜️day56|⬜️day57|
 
 
 ---
@@ -768,4 +769,11 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day53.py)
 
+---
+### Day 54 [Hard]
+This problem was asked by Dropbox.
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
 ---
