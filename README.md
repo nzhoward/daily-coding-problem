@@ -776,4 +776,32 @@ This problem was asked by Dropbox.
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver.
+
+---
+### Day 55 [Easy]
+This problem was asked by Microsoft.
+
+Implement a URL shortener with the following methods:
+* `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+* `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+---
+### Day 56 [Medium]
+
+This problem was asked by Google.
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+---
+### Day 57 [Medium]
+This problem was asked by Amazon.
+
+Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
+
+You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
+
+For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
 ---
