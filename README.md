@@ -19,7 +19,7 @@
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|⬜️day52|✅day53|⬜️day54|
-|⬜️day55|⬜️day56|⬜️day57|
+|✅day55|⬜️day56|⬜️day57|
 
 
 ---
@@ -786,6 +786,8 @@ Implement a URL shortener with the following methods:
 * `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day55.py)
 
 ---
 ### Day 56 [Medium]
