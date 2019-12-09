@@ -19,7 +19,7 @@
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
-|✅day55|⬜️day56|⬜️day57|
+|✅day55|⬜️day56|✅day57|
 
 
 ---
@@ -807,5 +807,7 @@ Given a string s and an integer k, break up the string into multiple lines such 
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day57.py)
 
 ---
