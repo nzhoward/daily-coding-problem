@@ -18,7 +18,7 @@
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|⬜️day46|✅day47|⬜️day48|
-|✅day49|✅day50|⬜️day51|⬜️day52|✅day53|⬜️day54|
+|✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|⬜️day57|
 
 
@@ -760,6 +760,8 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 `get(key)`: gets the value at key. If no such key exists, return null.
 
 Each operation should run in O(1) time.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day52.py)
 
 ---
 ### Day 53 [Medium]
