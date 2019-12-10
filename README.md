@@ -19,7 +19,7 @@
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
-|✅day55|⬜️day56|✅day57|
+|✅day55|⬜️day56|✅day57|⬜️day58|⬜️day59|⬜️day60|
 
 
 ---
@@ -811,5 +811,33 @@ You can assume that there are no spaces at the ends of the string and that there
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day57.py)
+
+---
+### Day 58 [Medium]
+This problem was asked by Amazon.
+
+An sorted array of integers was rotated an unknown number of times.
+
+Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
+
+For example, given the array `[13, 18, 25, 2, 8, 10]` and the element `8`, return `4` (the index of 8 in the array).
+
+You can assume all the integers in the array are unique.
+
+---
+### Day 59 [Hard]
+This problem was asked by Google.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+---
+### Day 60 [Medium]
+This problem was asked by Facebook.
+
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+
+For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35}`, which both add up to `55`.
+
+Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
 ---
