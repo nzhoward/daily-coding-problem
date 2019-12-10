@@ -19,7 +19,7 @@
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
-|✅day55|⬜️day56|✅day57|⬜️day58|⬜️day59|⬜️day60|
+|✅day55|⬜️day56|✅day57|✅day58|⬜️day59|⬜️day60|
 
 
 ---
@@ -823,6 +823,8 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array `[13, 18, 25, 2, 8, 10]` and the element `8`, return `4` (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day58.py)
 
 ---
 ### Day 59 [Hard]
