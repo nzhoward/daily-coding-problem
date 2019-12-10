@@ -19,7 +19,7 @@
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
-|✅day55|⬜️day56|✅day57|✅day58|⬜️day59|⬜️day60|
+|✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 
 
 ---
@@ -841,5 +841,7 @@ Given a multiset of integers, return whether it can be partitioned into two subs
 For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35}`, which both add up to `55`.
 
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day60.py)
 
 ---
