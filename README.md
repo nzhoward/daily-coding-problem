@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|
+|✅day61|⬜️day62|
 
 
 ---
@@ -858,5 +858,18 @@ Do this faster than the naive method of repeated multiplication.
 For example, `pow(2, 10)` should return `1024`.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day61.py)
+
+---
+### Day 62 [Medium]
+This problem was asked by Facebook.
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+* Right, then down
+* Down, then right
+
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 ---
