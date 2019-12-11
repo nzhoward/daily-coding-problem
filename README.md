@@ -20,6 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|⬜️day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
+|⬜️day61|
 
 
 ---
@@ -843,5 +844,15 @@ For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return t
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day60.py)
+
+---
+### Day 61 [Medium]
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, `pow(2, 10)` should return `1024`.
 
 ---
