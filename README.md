@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|⬜️day62|
+|✅day61|✅day62|
 
 
 ---
@@ -871,5 +871,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 * Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day62.py)
 
 ---
