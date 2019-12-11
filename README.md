@@ -17,7 +17,7 @@
 |⬜️day25|✅day26|✅day27|✅day28|✅day29|✅day30|
 |✅day31|⬜️day32|✅day33|⬜️day34|✅day35|✅day36|
 |✅day37|⬜️day38|⬜️day39|⬜️day40|⬜️day41|⬜️day42|
-|✅day43|⬜️day44|✅day45|✅day46|✅day47|⬜️day48|
+|✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |⬜️day61|
@@ -707,6 +707,8 @@ You should return the following tree:
  / \ / \
 d  e f  g
 ```
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day48.py)
 
 ---
 ### Day 49 [Medium]
