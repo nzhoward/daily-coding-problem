@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|✅day62|
+|✅day61|✅day62|⬜️day63|
 
 
 ---
@@ -873,5 +873,20 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day62.py)
+
+---
+### Day 63 [Easy]
+This problem was asked by Microsoft.
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+```
+[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]
+```
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
 ---
