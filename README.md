@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|✅day62|✅day63|⬜️day64|⬜️day65|⬜️day66|
+|✅day61|✅day62|✅day63|⬜️day64|✅day65|⬜️day66|
 |⬜️day67|
 
 
@@ -936,6 +936,8 @@ You should print out the following:
 13
 12
 ```
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day65.py)
 
 ---
 ### Day 66 [Medium]
