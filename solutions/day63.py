@@ -1,5 +1,5 @@
 def find_word(word, word_idx, i, j, mat):
-    if i > len(mat) - 1 or j > len(mat[0]) - 1:
+    if i > len(mat[0]) - 1 or j > len(mat) - 1:
         return False
     if word[word_idx] == mat[i][j] and len(word) - 1 == word_idx:
         return True
