@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|✅day62|⬜️day63|
+|✅day61|✅day62|✅day63|
 
 
 ---
@@ -888,5 +888,7 @@ For example, given the following matrix:
  ['M', 'A', 'S', 'S']]
 ```
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day63.py)
 
 ---
