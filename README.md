@@ -20,7 +20,8 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|✅day62|✅day63|
+|✅day61|✅day62|✅day63|⬜️day64|⬜️day65|⬜️day66|
+|⬜️day67|
 
 
 ---
@@ -890,5 +891,13 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day63.py)
+
+---
+### Day 64 [Hard]
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
 ---
