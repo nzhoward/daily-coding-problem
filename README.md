@@ -20,7 +20,7 @@
 |✅day43|⬜️day44|✅day45|✅day46|✅day47|✅day48|
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
-|✅day61|✅day62|✅day63|⬜️day64|✅day65|⬜️day66|
+|✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
 |⬜️day67|
 
 
@@ -946,6 +946,8 @@ This problem was asked by Square.
 Assume you have access to a function toss_biased() which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day66.py)
 
 ---
 ### Day 67 [Hard]
