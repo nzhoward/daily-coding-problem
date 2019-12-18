@@ -21,7 +21,7 @@
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
-|⬜️day67|
+|⬜️day67|⬜️day68|
 
 
 ---
@@ -960,5 +960,30 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 * `get(key)`: gets the value at key. If no such key exists, return null.
 
 Each operation should run in O(1) time.
+
+---
+### Day 68 [Medium]
+This problem was asked by Google.
+
+On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
+
+You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
+
+For example, given M = 5 and the list of bishops:
+
+* (0, 0)
+* (1, 2)
+* (2, 2)
+* (4, 0)
+
+The board would look like this:
+```
+[b 0 0 0 0]
+[0 0 b 0 0]
+[0 0 b 0 0]
+[0 0 0 0 0]
+[b 0 0 0 0]
+```
+You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
 ---
