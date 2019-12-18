@@ -21,7 +21,7 @@
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
-|⬜️day67|⬜️day68|
+|✅day67|⬜️day68|
 
 
 ---
@@ -960,6 +960,8 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 * `get(key)`: gets the value at key. If no such key exists, return null.
 
 Each operation should run in O(1) time.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day67.py)
 
 ---
 ### Day 68 [Medium]
