@@ -21,7 +21,7 @@
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
-|✅day67|✅day68|⬜️day69|
+|✅day67|✅day68|✅day69|
 
 
 ---
@@ -999,5 +999,7 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
 
 You can assume the list has at least three integers.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day69.py)
 
 ---
