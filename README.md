@@ -21,7 +21,7 @@
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
-|✅day67|✅day68|✅day69|
+|✅day67|✅day68|✅day69|⬜️day70|
 
 
 ---
@@ -1001,5 +1001,15 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 You can assume the list has at least three integers.
 
 [Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day69.py)
+
+---
+### Day 70 [Easy]
+This problem was asked by Microsoft.
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer n, return the n-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
 
 ---
