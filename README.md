@@ -21,7 +21,9 @@
 |✅day49|✅day50|⬜️day51|✅day52|✅day53|⬜️day54|
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
-|✅day67|✅day68|✅day69|⬜️day70|
+|✅day67|✅day68|✅day69|⬜️day70|⬜️day71|⬜️day72|
+|⬜️day73|⬜️day74|⬜️day75|⬜️day76|⬜️day77|⬜️day78|
+|⬜️day79|⬜️day80|
 
 
 ---
