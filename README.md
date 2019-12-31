@@ -22,7 +22,7 @@
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
 |✅day67|✅day68|✅day69|⬜️day70|❎day71|⬜️day72|
-|✅day73|✅day74|⬜️day75|⬜️day76|⬜️day77|⬜️day78|
+|✅day73|✅day74|⬜️day75|⬜️day76|⬜️day77|✅day78|
 |⬜️day79|⬜️day80|
 
 
@@ -1144,6 +1144,8 @@ For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1
 This problem was asked by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day78.py)
 
 ---
 ### Day 79 [Medium]
