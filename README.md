@@ -22,7 +22,7 @@
 |✅day55|⬜️day56|✅day57|✅day58|⬜️day59|✅day60|
 |✅day61|✅day62|✅day63|⬜️day64|✅day65|✅day66|
 |✅day67|✅day68|✅day69|⬜️day70|❎day71|⬜️day72|
-|✅day73|⬜️day74|⬜️day75|⬜️day76|⬜️day77|⬜️day78|
+|✅day73|✅day74|⬜️day75|⬜️day76|⬜️day77|⬜️day78|
 |⬜️day79|⬜️day80|
 
 
@@ -1084,6 +1084,8 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 | 6 | 12 | 18 | 24 | 30 | 36 |
 ```
 And there are 4 12's in the table.
+
+[Solution](https://github.com/nzhoward/daily-coding-problem/blob/master/solutions/day74.py)
 
 ---
 ### Day 75 [Hard]
