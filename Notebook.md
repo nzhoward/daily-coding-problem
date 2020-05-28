@@ -13,6 +13,24 @@ Examples:
 
 ```python
 class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        
+        def backtrack(path, start):
+            if len(path) == k:
+                ans.append(path)
+            for i in range(start, len(nums)):
+                backtrack(path + [nums[i]], i + 1)
+        
+        ans = []
+        for k in range(len(nums) + 1):
+            backtrack([], 0)
+        
+        return ans
+```
+
+
+```python
+class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         
         def backtrack(path, remain, start):
