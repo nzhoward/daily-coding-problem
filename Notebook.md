@@ -62,6 +62,30 @@ class Solution:
         return ans
 ```
 
+```python
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        
+        def backtrack(path):
+            if len(path) == len(nums):
+                ans.append(path)
+            for i in range(len(nums)):
+                if used[i]:
+                    continue
+                if i > 0 and nums[i] == nums[i - 1] and not used[i - 1]:
+                    continue
+                used[i] = True
+                backtrack(path + [nums[i]])
+                used[i] = False
+        
+        ans = []
+        nums.sort()
+        used = [False for _ in range(len(nums))]
+        backtrack([])
+        
+        return ans
+```
+
 
 ```python
 class Solution:
