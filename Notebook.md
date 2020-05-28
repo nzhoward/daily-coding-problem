@@ -109,3 +109,32 @@ class Solution:
         
         return ans
 ```
+
+```python
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        def backtrack(path, remain, start):
+            if remain < 0:
+                # invalid path: discard
+                return
+            elif remain == 0:
+                # valid path: add current path to final answer/backtrack
+                ans.append(path)
+                return
+            for i in range(start, len(candidates)):
+                if used[i]:
+                    continue
+                if i > 0 and candidates[i] == candidates[i - 1] and not used[i - 1]:
+                    continue
+                # add next candidate to current path
+                used[i] = True
+                backtrack(path + [candidates[i]], remain - candidates[i], i + 1)
+                used[i] = False
+        
+        ans = []
+        candidates.sort()
+        used = [False for _ in range(len(candidates))]
+        backtrack([], target, 0)
+        
+        return ans
+```
