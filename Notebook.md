@@ -44,6 +44,25 @@ class Solution:
         return ans
 ```
 
+```python
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        
+        def backtrack(path):
+            if len(path) == len(nums):
+                ans.append(path)
+                return
+            for i in range(len(nums)):
+                if nums[i] in path:
+                    continue
+                backtrack(path + [nums[i]], i + 1)
+        
+        ans = []
+        backtrack([])
+        
+        return ans
+```
+
 
 ```python
 class Solution:
