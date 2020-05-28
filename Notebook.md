@@ -13,7 +13,8 @@ class Solution:
                 ans.append(path) # add current path to final answer/backtrack 
                 return
             for i in range(start, len(candidates)):
-                backtrack(path + [candidates[i]], remain - candidates[i], i) # add current candidate to current path
+                # add current candidate to current path
+                backtrack(path + [candidates[i]], remain - candidates[i], i)
         
         #candidates.sort()
         ans = []
