@@ -51,11 +51,10 @@ class Solution:
         def backtrack(path):
             if len(path) == len(nums):
                 ans.append(path)
-                return
             for i in range(len(nums)):
                 if nums[i] in path:
                     continue
-                backtrack(path + [nums[i]], i + 1)
+                backtrack(path + [nums[i]])
         
         ans = []
         backtrack([])
