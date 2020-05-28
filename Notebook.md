@@ -26,6 +26,24 @@ class Solution:
         return ans
 ```
 
+```python
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        
+        def backtrack(path, start):
+            ans.append(path)
+            for i in range(start, len(nums)):
+                if i > start and nums[i] == nums[i - 1]:
+                    continue
+                backtrack(path + [nums[i]], i + 1)
+        
+        ans = []
+        nums.sort()
+        backtrack([], 0)
+        
+        return ans
+```
+
 
 ```python
 class Solution:
@@ -46,5 +64,6 @@ class Solution:
         #candidates.sort()
         ans = []
         backtrack([], target, 0)
+        
         return ans
 ```
