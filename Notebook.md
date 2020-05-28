@@ -8,12 +8,14 @@ class Solution:
         
         def backtrack(path, remain, start):
             if remain < 0:
+                # invalid path: discard
                 return
             elif remain == 0:
-                ans.append(path) # add current path to final answer/backtrack 
+                # valid path: add current path to final answer/backtrack
+                ans.append(path)
                 return
             for i in range(start, len(candidates)):
-                # add current candidate to current path
+                # add next candidate to current path
                 backtrack(path + [candidates[i]], remain - candidates[i], i)
         
         #candidates.sort()
