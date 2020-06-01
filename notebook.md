@@ -1,3 +1,16 @@
+### Singly Linked List Reversal
+```python
+cur = head
+prev = None
+
+while cur:
+    third = cur.next
+    cur.next = prev
+    prev = cur
+    cur = third
+```
+
+
 ### Iterative DP
 https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
 
