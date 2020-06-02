@@ -223,3 +223,23 @@ class Solution:
         
         return ans
 ```
+
+```python
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        
+        def backtrack(s, path):
+            if not s:
+                ans.append(path)
+                return
+            for i in range(1, len(s) + 1):
+                if ispal(s[:i]):
+                    backtrack(s[i:], path + [s[:i]])
+        
+        def ispal(s):
+            return s == s[::-1]
+        
+        ans = []
+        backtrack(s, [])
+        return ans
+```
