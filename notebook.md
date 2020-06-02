@@ -89,13 +89,6 @@ General template for solving backtrack/path/DP problems
 
 Examples:
 * https://leetcode.com/problems/subsets/
-* https://leetcode.com/problems/subsets-ii/
-* https://leetcode.com/problems/permutations/
-* https://leetcode.com/problems/permutations-ii/
-* https://leetcode.com/problems/combination-sum/
-* https://leetcode.com/problems/combination-sum-ii/
-* https://leetcode.com/problems/palindrome-partitioning/
-
 ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -111,6 +104,7 @@ class Solution:
         return ans
 ```
 
+* https://leetcode.com/problems/subsets-ii/
 ```python
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
@@ -129,6 +123,7 @@ class Solution:
         return ans
 ```
 
+* https://leetcode.com/problems/permutations/
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -147,6 +142,7 @@ class Solution:
         return ans
 ```
 
+* https://leetcode.com/problems/permutations-ii/
 ```python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
@@ -171,7 +167,7 @@ class Solution:
         return ans
 ```
 
-
+* https://leetcode.com/problems/combination-sum/
 ```python
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -195,6 +191,7 @@ class Solution:
         return ans
 ```
 
+* https://leetcode.com/problems/combination-sum-ii/
 ```python
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -224,6 +221,7 @@ class Solution:
         return ans
 ```
 
+* https://leetcode.com/problems/palindrome-partitioning/
 ```python
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
@@ -241,5 +239,6 @@ class Solution:
         
         ans = []
         backtrack(s, [])
+        
         return ans
 ```
