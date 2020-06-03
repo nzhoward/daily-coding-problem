@@ -1,7 +1,7 @@
 ### Iterative BFS of Graph
 ```python
 def bfs(self, root):
-    visited = {root}
+    visited = set([root])
     queue = deque([(root, 0)])
     ans = [root.val]
     while queue:
