@@ -1,4 +1,21 @@
-### DFS Matrix Traversal
+### Iterative BFS of Graph
+```python
+def bfs(self, root):
+    visited = {root}
+    queue = deque([(root, 0)])
+    ans = [root.val]
+    while queue:
+        node, depth = queue.popleft()
+        for nei in neighbors(node):
+            if nei not in visited:
+                visited.add(nei)
+                ans.append(nei.val)
+                queue.append((nei, depth + 1))
+    
+    return ans
+```
+
+### DFS Matrix Traversal (Recursive)
 ```python
 def dfs(self, i, j, matrix, visited, m, n):
     if visited:
