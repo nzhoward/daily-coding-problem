@@ -3,16 +3,17 @@
 def bfs(self, root):
     visited = set([root])
     queue = deque([(root, 0)])
-    ans = [root.val]
+    
     while queue:
         node, depth = queue.popleft()
+        if node == target:
+            return node
         for nei in neighbors(node):
             if nei not in visited:
                 visited.add(nei)
-                ans.append(nei.val)
                 queue.append((nei, depth + 1))
-    
-    return ans
+                
+    return -1
 ```
 
 ### DFS Matrix Traversal (Recursive)
