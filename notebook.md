@@ -1,4 +1,22 @@
 ### Sliding Window/Two Pointers
+* LC 487 - https://leetcode.com/problems/max-consecutive-ones-ii/
+```python
+class Solution:
+    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
+        i = 0
+        zeros = 1
+        ans = 0
+        for j in range(len(nums)):
+            if nums[j] == 0:
+                zeros -= 1
+            while zeros < 0:
+                if nums[i] == 0:
+                    zeros += 1
+                i += 1
+            ans = max(ans, j - i + 1)
+        return ans
+```
+
 * LC 930 - https://leetcode.com/problems/binary-subarrays-with-sum/
 ```python
 class Solution:
