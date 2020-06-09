@@ -1,5 +1,28 @@
 ### Sliding Window/Two Pointers
-* https://leetcode.com/problems/subarrays-with-k-different-integers/
+* LC 930 - https://leetcode.com/problems/binary-subarrays-with-sum/
+```python
+class Solution:
+    def numSubarraysWithSum(self, A: List[int], S: int) -> int:
+        
+        def atMost(S):
+            if S < 0:
+                return 0
+            ans = 0
+            i = 0
+            for j in range(len(A)):
+                if A[j] == 1:
+                    S -= 1
+                while S < 0:
+                    if A[i] == 1:
+                        S += 1
+                    i += 1
+                ans += j - i + 1
+            return ans
+        
+        return atMost(S) - atMost(S - 1)
+```
+
+* LC 992 - https://leetcode.com/problems/subarrays-with-k-different-integers/
 ```python
 class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
@@ -25,7 +48,7 @@ class Solution:
 ```
 
 
-* https://leetcode.com/problems/count-number-of-nice-subarrays/
+* LC 1248 - https://leetcode.com/problems/count-number-of-nice-subarrays/
 ```python
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
