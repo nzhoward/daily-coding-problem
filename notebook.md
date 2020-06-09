@@ -1,3 +1,53 @@
+### Sliding Window/Two Pointers
+* https://leetcode.com/problems/subarrays-with-k-different-integers/
+```python
+class Solution:
+    def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
+        
+        def atMostK(K):
+            count = Counter()
+            ans = 0
+            i = 0
+            for j in range(len(A)):
+                if count[A[j]] == 0:
+                    K -= 1
+                count[A[j]] += 1
+                while K < 0:
+                    count[A[i]] -= 1
+                    if count[A[i]] == 0:
+                        K += 1
+                    i += 1
+                ans += j - i + 1
+            
+            return ans
+        
+        return atMostK(K) - atMostK(K - 1)
+```
+
+
+* https://leetcode.com/problems/count-number-of-nice-subarrays/
+```python
+class Solution:
+    def numberOfSubarrays(self, nums: List[int], k: int) -> int:
+        
+        def atMostK(k):
+            ans = 0
+            i = 0
+            for j in range(len(nums)):
+                if nums[j] % 2 == 1:
+                    k -= 1
+                while k < 0:
+                    if nums[i] % 2 == 1:
+                        k += 1
+                    i += 1
+                ans += j - i + 1
+            return ans
+            
+            
+        return atMostK(k) - atMostK(k - 1)
+```
+
+
 ### Iterative BFS of Graph
 ```python
 def bfs(self, root):
