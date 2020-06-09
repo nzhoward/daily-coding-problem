@@ -11,11 +11,15 @@ class Solution:
         ans = float('inf'), 0, 0
         
         for j in range(len(s)):
+            # expand window to the right while conditions are not yet met
             wdict[s[j]] += 1
             if s[j] in tdict and wdict[s[j]] == tdict[s[j]]:
                 formed += 1
             
+            # condition is met
             while i <= j and formed == required:
+                # contract window from the left up to the point conditions are no longer satisfied
+                # update best result seen so far
                 if j - i + 1 < ans[0]:
                     ans = j - i + 1, i, j
                 wdict[s[i]] -= 1
