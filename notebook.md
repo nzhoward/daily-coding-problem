@@ -1,4 +1,31 @@
 ### Sliding Window/Two Pointers
+* LC 76 - https://leetcode.com/problems/minimum-window-substring/
+```python
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        i = 0
+        tdict = Counter(t)
+        required = len(tdict)
+        formed = 0
+        wdict = Counter()
+        ans = float('inf'), 0, 0
+        
+        for j in range(len(s)):
+            wdict[s[j]] += 1
+            if s[j] in tdict and wdict[s[j]] == tdict[s[j]]:
+                formed += 1
+            
+            while i <= j and formed == required:
+                if j - i + 1 < ans[0]:
+                    ans = j - i + 1, i, j
+                wdict[s[i]] -= 1
+                if s[i] in tdict and wdict[s[i]] < tdict[s[i]]:
+                    formed -= 1
+                i += 1
+        
+        return "" if ans[0] == float('inf') else s[ans[1] : ans[2] + 1]
+```
+
 * LC 487 - https://leetcode.com/problems/max-consecutive-ones-ii/
 ```python
 class Solution:
