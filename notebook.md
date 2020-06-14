@@ -228,7 +228,23 @@ https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-Ho
 General template for solving backtrack/path/DP problems
 
 Examples:
-* https://leetcode.com/problems/subsets/
+* LC 77 - https://leetcode.com/problems/combinations/
+```python
+class Solution:
+    def combine(self, n: int, k: int) -> List[List[int]]:
+        
+        def backtrack(path, start):
+            if len(path) == k:
+                ans.append(path)
+            for i in range(start, n + 1):
+                backtrack(path + [i], i + 1)
+        
+        ans = []
+        backtrack([], 1)
+        
+        return ans
+```
+* LC 78 - https://leetcode.com/problems/subsets/
 ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
