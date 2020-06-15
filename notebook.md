@@ -260,7 +260,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/subsets-ii/
+* LC 90 - https://leetcode.com/problems/subsets-ii/
 ```python
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
@@ -279,7 +279,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/permutations/
+* LC 46 - https://leetcode.com/problems/permutations/
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -298,7 +298,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/permutations-ii/
+* LC 47 - https://leetcode.com/problems/permutations-ii/
 ```python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
@@ -323,7 +323,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/combination-sum/
+* LC 39 - https://leetcode.com/problems/combination-sum/
 ```python
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -347,7 +347,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/combination-sum-ii/
+* LC 40 - https://leetcode.com/problems/combination-sum-ii/
 ```python
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -404,7 +404,7 @@ class Solution:
         return ans
 ```
 
-* https://leetcode.com/problems/palindrome-partitioning/
+* LC 131 - https://leetcode.com/problems/palindrome-partitioning/
 ```python
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
