@@ -377,6 +377,33 @@ class Solution:
         return ans
 ```
 
+* LC 216 - https://leetcode.com/problems/combination-sum-iii/
+```python
+class Solution:
+    def combinationSum3(self, k: int, n: int) -> List[List[int]]:
+        
+        def backtrack(path, remain, start):
+            if remain < 0:
+                return
+            elif len(path) == k and remain == 0:
+                ans.append(path)
+                return
+            for i in range(start, len(candidates)):
+                if used[i]:
+                    continue
+                used[i] = True
+                backtrack(path + [candidates[i]], remain - candidates[i], i + 1)
+                used[i] = False
+        
+        
+        ans = []
+        candidates = list(range(1, 10))
+        used = [False for _ in range(len(candidates))]
+        backtrack([], n, 0)
+        
+        return ans
+```
+
 * https://leetcode.com/problems/palindrome-partitioning/
 ```python
 class Solution:
