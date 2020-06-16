@@ -468,7 +468,7 @@ class Solution:
         return backtrack(count)
 ```
 
-LC 310 - https://leetcode.com/problems/generalized-abbreviation/
+* LC 310 - https://leetcode.com/problems/generalized-abbreviation/
 ```python
 class Solution:
     def generateAbbreviations(self, word: str) -> List[str]:
