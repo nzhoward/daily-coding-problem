@@ -467,3 +467,29 @@ class Solution:
         
         return backtrack(count)
 ```
+
+LC 310 - https://leetcode.com/problems/generalized-abbreviation/
+```python
+class Solution:
+    def generateAbbreviations(self, word: str) -> List[str]:
+        
+        # i is current position
+        # k is count of consecutive abbreviated characters
+        def backtrack(path, i, k):
+            if i == len(word):
+                if k != 0:
+                    ans.append(''.join(path + [str(k)]))
+                else:
+                    ans.append(''.join(path))
+            else:
+                backtrack(path, i + 1, k + 1)
+                
+                if k != 0:
+                    backtrack(path + [str(k)] + [word[i]], i + 1, 0)
+                else:
+                    backtrack(path + [word[i]], i + 1, 0)
+                
+        ans = []
+        backtrack([], 0, 0)
+        return ans
+```
