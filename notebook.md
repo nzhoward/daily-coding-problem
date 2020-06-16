@@ -446,3 +446,24 @@ class Solution:
         
         return ans
 ```
+
+* LC 1079 - https://leetcode.com/problems/letter-tile-possibilities/
+```python
+class Solution:
+    def numTilePossibilities(self, tiles: str) -> int:
+        
+        def backtrack(count):
+            res = 0
+            for k in count:
+                if count[k] == 0:
+                    continue
+                res += 1
+                count[k] -= 1
+                res += backtrack(count)
+                count[k] += 1
+            return res
+        
+        count = Counter(tiles)
+        
+        return backtrack(count)
+```
