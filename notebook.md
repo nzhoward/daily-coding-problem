@@ -425,3 +425,24 @@ class Solution:
         
         return ans
 ```
+
+* LC 784 - https://leetcode.com/problems/letter-case-permutation/
+```python
+class Solution:
+    def letterCasePermutation(self, S: str) -> List[str]:
+        
+        def backtrack(path, i):
+            if len(path) == len(S):
+                ans.append(''.join(path))
+                return
+            if S[i].isnumeric():
+                backtrack(path + [S[i]], i + 1)
+            else:
+                backtrack(path + [S[i].upper()], i + 1)
+                backtrack(path + [S[i].lower()], i + 1)
+        
+        ans = []
+        backtrack([], 0)
+        
+        return ans
+```
