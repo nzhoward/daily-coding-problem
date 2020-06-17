@@ -118,7 +118,7 @@ class Solution:
             
         return atMostK(k) - atMostK(k - 1)
 ```
-### Tree Level Order Traversal
+### Tree Level Order Traversal (iterative using queue)
 
 * LC 513 - https://leetcode.com/problems/find-bottom-left-tree-value/
 ```python
