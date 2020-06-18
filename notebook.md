@@ -119,7 +119,7 @@ class Solution:
         return atMostK(k) - atMostK(k - 1)
 ```
 
-### Eliminating Leaves to Find MHT
+### Eliminating Leaves to Find Roots of MHTs
 
 ![](https://assets.leetcode.com/static_assets/discuss/uploads/files/1469152741497-1463645059503_1214297289.jpg)
 * LC 310 - https://leetcode.com/problems/minimum-height-trees/
