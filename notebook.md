@@ -236,14 +236,15 @@ def bfs(self, root):
 ```python
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
+        if not root:
+            return 0
         stack = [(root, 1)]
         depth = 0
         while stack:
             root, curdepth = stack.pop()
-            if root:
-                depth = max(depth, curdepth)
-                for c in root.children:
-                    stack.append((c, curdepth + 1))
+            depth = max(depth, curdepth)
+            for c in root.children:
+                stack.append((c, curdepth + 1))
                     
         return depth
 ```
