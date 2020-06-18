@@ -231,7 +231,7 @@ def bfs(self, root):
     return -1
 ```
 
-### Iterative BFS of Graph
+### Iterative DFS of Graph
 * LC 559 - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 ```python
 class Solution:
