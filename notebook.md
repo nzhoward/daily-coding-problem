@@ -6,7 +6,7 @@
 
 [Iterative BFS of Graph](#Iterative-BFS-of-Graph)
 
-[DFS Matrix Traversal (Recursive)](#DFS-Matrix-Traversal-(Recursive))
+[DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-(recursive))
 
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
 
@@ -229,7 +229,7 @@ def bfs(self, root):
     return -1
 ```
 
-### DFS Matrix Traversal (Recursive)
+### DFS Matrix Traversal (recursive)
 ```python
 def dfs(self, i, j, matrix, visited, m, n):
     if visited:
