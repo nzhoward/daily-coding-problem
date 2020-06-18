@@ -2,11 +2,11 @@
 
 [Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
 
-[Tree Level Order Traversal (iterative using queue)](#Tree-Level-Order-Traversal-(iterative-using-queue))
+[Tree Level Order Traversal (iterative using queue)](#Tree-Level-Order-Traversal-iterative-using-queue)
 
 [Iterative BFS of Graph](#Iterative-BFS-of-Graph)
 
-[DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-(recursive))
+[DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-recursive)
 
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
 
@@ -14,7 +14,7 @@
 
 [Iterative DP](#Iterative-DP)
 
-[Backtracking DP](#BacktrackingDP)
+[Backtracking DP](#Backtracking-DP)
 
 
 
