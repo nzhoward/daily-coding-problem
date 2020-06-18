@@ -2,7 +2,7 @@
 
 [Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
 
-[Tree Level Order Traversal (iterative using queue)](#Tree-Level-Order-Traversal-iterative-using-queue)
+[Tree Level Order Traversal BFS (iterative using queue)](#Tree-Level-Order-Traversal-BFS-iterative-using-queue)
 
 [Iterative BFS of Graph](#Iterative-BFS-of-Graph)
 
