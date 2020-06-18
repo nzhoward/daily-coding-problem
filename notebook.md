@@ -1,6 +1,21 @@
 [Sliding Window/Two Pointers](#Sliding-WindowTwo-Pointers)
 
-[Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs]
+[Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
+
+[Tree Level Order Traversal (iterative using queue)](#Tree-Level-Order-Traversal-(iterative-using-queue))
+
+[Iterative BFS of Graph](#Iterative-BFS-of-Graph)
+
+[DFS Matrix Traversal (Recursive)](#DFS-Matrix-Traversal-(Recursive))
+
+[Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
+
+[Singly Linked List Reversal](#Singly-Linked-List-Reversal)
+
+[Iterative DP](#Iterative-DP)
+
+[Backtracking DP](#BacktrackingDP)
+
 
 
 
