@@ -254,8 +254,8 @@ class Solution:
 def dfs(self, i, j, matrix, visited, m, n):
     if visited[i][j]:
         # return or return a value
-    for dir in self.directions:
-        x, y = i + direction[0], j + direction[1]
+    for d in self.directions:
+        x, y = i + d[0], j + d[1]
         if x < 0 or x >= m or y < 0 or y >= n or matrix[x][y] <= matrix[i][j]:
         # (or a condition you want to skip this round)
             continue
