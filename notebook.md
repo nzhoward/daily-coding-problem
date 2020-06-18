@@ -118,6 +118,34 @@ class Solution:
             
         return atMostK(k) - atMostK(k - 1)
 ```
+
+### Eliminating Leaves to Find MHT
+
+![](https://assets.leetcode.com/static_assets/discuss/uploads/files/1469152741497-1463645059503_1214297289.jpg)
+* LC 310 - https://leetcode.com/problems/minimum-height-trees/
+
+```python
+class Solution:
+    def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
+        adj = [set() for _ in range(n)]
+        for i, j in edges:
+            adj[i].add(j)
+            adj[j].add(i)
+        leaves = [i for i in range(n) if len(adj[i]) == 1]
+        
+        while n > 2:
+            n -= len(leaves)
+            newleaves = []
+            for i in leaves:
+                j = adj[i].pop()
+                adj[j].remove(i)
+                if len(adj[j]) == 1:
+                    newleaves.append(j)
+            leaves = newleaves
+        
+        return leaves
+```
+
 ### Tree Level Order Traversal (iterative using queue)
 
 * LC 513 - https://leetcode.com/problems/find-bottom-left-tree-value/
