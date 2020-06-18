@@ -6,6 +6,8 @@
 
 [Iterative BFS of Graph](#Iterative-BFS-of-Graph)
 
+[Iterative DFS of Graph](#Iterative-DFS-of-Graph)
+
 [DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-recursive)
 
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
@@ -227,6 +229,23 @@ def bfs(self, root):
                 queue.append((nei, depth + 1))
                 
     return -1
+```
+
+### Iterative BFS of Graph
+* LC 559 - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+```python
+class Solution:
+    def maxDepth(self, root: 'Node') -> int:
+        stack = [(root, 1)]
+        depth = 0
+        while stack:
+            root, curdepth = stack.pop()
+            if root:
+                depth = max(depth, curdepth)
+                for c in root.children:
+                    stack.append((c, curdepth + 1))
+                    
+        return depth
 ```
 
 ### DFS Matrix Traversal (recursive)
