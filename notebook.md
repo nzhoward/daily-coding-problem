@@ -252,7 +252,7 @@ class Solution:
 ### DFS Matrix Traversal (recursive)
 ```python
 def dfs(self, i, j, matrix, visited, m, n):
-    if visited:
+    if visited[i][j]:
         # return or return a value
     for dir in self.directions:
         x, y = i + direction[0], j + direction[1]
