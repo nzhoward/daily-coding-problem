@@ -170,7 +170,7 @@ class Solution:
         return leaves
 ```
 
-### Tree Level Order Traversal (iterative using queue)
+### Tree Level Order Traversal BFS (iterative using queue)
 
 * LC 513 - https://leetcode.com/problems/find-bottom-left-tree-value/
 ```python
