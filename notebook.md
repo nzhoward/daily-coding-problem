@@ -231,6 +231,36 @@ def bfs(self, root):
     return -1
 ```
 
+* LC 490 - https://leetcode.com/problems/the-maze/
+```python
+class Solution:
+    def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
+        m = len(maze)
+        n = len(maze[0])
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        queue = deque([start])
+        
+        while queue:
+            i, j = queue.popleft()
+            
+            if i == destination[0] and j == destination[1]:
+                return True
+            
+            for dx, dy in directions:
+                x = i + dx
+                y = j + dy
+                while 0 <= x < m and 0 <= y < n and maze[x][y] != 1:
+                    x += dx
+                    y += dy
+                x -= dx
+                y -= dy
+                if maze[x][y] == 0:
+                    queue.append([x, y])
+                    maze[x][y] = 2
+        
+        return False
+```
+
 ### Iterative DFS of Graph
 * LC 559 - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 ```python
