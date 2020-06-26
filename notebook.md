@@ -171,6 +171,27 @@ class Solution:
 ```
 
 ### Tree Level Order Traversal BFS (iterative using queue)
+* LC 429 - https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+```python
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        if not root:
+            return []
+        
+        queue = deque([root])
+        res = []
+        
+        while queue:
+            tmp = []
+            for i in range(len(queue)):
+                node = queue.popleft()
+                tmp.append(node.val)
+                for nei in node.children:
+                    queue.append(nei)
+            res.append(tmp)
+        
+        return res
+```
 
 * LC 513 - https://leetcode.com/problems/find-bottom-left-tree-value/
 ```python
