@@ -24,9 +24,7 @@
 
 [Backtracking DP](#Backtracking-DP)
 
-
-
-
+---
 
 ### Sliding Window/Two Pointers
 * LC 76 - https://leetcode.com/problems/minimum-window-substring/
