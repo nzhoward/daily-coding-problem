@@ -4,9 +4,9 @@
 
 [Tree Level Order Traversal BFS (iterative using queue)](#Tree-Level-Order-Traversal-BFS-iterative-using-queue)
 
-[Iterative BFS of Graph](#Iterative-BFS-of-Graph)
+[Iterative BFS of Graph (queue)](#Iterative-BFS-of-Graph)
 
-[Iterative DFS of Graph](#Iterative-DFS-of-Graph)
+[Iterative DFS of Graph (stack)](#Iterative-DFS-of-Graph)
 
 [DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-recursive)
 
