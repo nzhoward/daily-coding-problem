@@ -1,6 +1,4 @@
-[Sliding Window/Two Pointers](#Sliding-WindowTwo-Pointers)
-
-[Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
+## Graph/Tree
 
 [Iterative BFS of Graph (queue)](#Iterative-BFS-of-Graph-queue)
 
@@ -10,9 +8,17 @@
 
 [DFS Matrix Traversal (iterative)](#DFS-Matrix-Traversal-iterative)
 
+[Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
+
+## Lists/Pointers
+
+[Sliding Window/Two Pointers](#Sliding-WindowTwo-Pointers)
+
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
 
 [Singly Linked List Reversal](#Singly-Linked-List-Reversal)
+
+## Dynamic Programming
 
 [Iterative DP](#Iterative-DP)
 
