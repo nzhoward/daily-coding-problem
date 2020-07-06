@@ -10,6 +10,8 @@
 
 [DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-recursive)
 
+[DFS Matrix Traversal (iterative)](#DFS-Matrix-Traversal-iterative)
+
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
 
 [Singly Linked List Reversal](#Singly-Linked-List-Reversal)
@@ -314,6 +316,40 @@ def dfs(self, i, j, matrix, visited, m, n):
         visited[i][j] = True
         # explore the next level like
         self.dfs(x, y, matrix, visited, m, n)
+```
+
+### DFS Matrix Traversal (iterative)
+* LC 200 - https://leetcode.com/problems/number-of-islands/
+```python
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if not grid:
+            return 0
+        
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        
+        n = len(grid)
+        m = len(grid[0])
+        
+        ans = 0
+        
+        for i in range(n):
+            for j in range(m):
+                if grid[i][j] == '1':
+                    ans += 1
+                    queue = deque([(i, j)])
+                    while queue:
+                        x, y = queue.popleft()
+                        if grid[x][y] == '1':
+                            grid[x][y] = '0'
+                            for dx, dy in directions:
+                                tx = x + dx
+                                ty = y + dy
+                                if tx < 0 or tx >= n or ty < 0 or ty >= m or grid[tx][ty] == '0':
+                                    continue
+                                queue.append((tx, ty))
+        
+        return ans
 ```
 
 
