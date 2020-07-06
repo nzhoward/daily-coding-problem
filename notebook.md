@@ -2,11 +2,9 @@
 
 [Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
 
-[Tree Level Order Traversal BFS (iterative using queue)](#Tree-Level-Order-Traversal-BFS-iterative-using-queue)
+[Iterative BFS of Graph (queue)](#Iterative-BFS-of-Graph-queue)
 
-[Iterative BFS of Graph (queue)](#Iterative-BFS-of-Graph)
-
-[Iterative DFS of Graph (stack)](#Iterative-DFS-of-Graph)
+[Iterative DFS of Graph (stack)](#Iterative-DFS-of-Graph-stack)
 
 [DFS Matrix Traversal (recursive)](#DFS-Matrix-Traversal-recursive)
 
@@ -172,7 +170,24 @@ class Solution:
         return leaves
 ```
 
-### Tree Level Order Traversal BFS (iterative using queue)
+### Iterative BFS of Graph (queue)
+```python
+def bfs(self, root):
+    visited = set([root])
+    queue = deque([(root, 0)])
+    
+    while queue:
+        node, depth = queue.popleft()
+        if node == target:
+            return node
+        for nei in neighbors(node):
+            if nei not in visited:
+                visited.add(nei)
+                queue.append((nei, depth + 1))
+                
+    return -1
+```
+
 * LC 429 - https://leetcode.com/problems/n-ary-tree-level-order-traversal/
 ```python
 class Solution:
@@ -236,24 +251,6 @@ class Solution:
         return ans
 ```
 
-### Iterative BFS of Graph
-```python
-def bfs(self, root):
-    visited = set([root])
-    queue = deque([(root, 0)])
-    
-    while queue:
-        node, depth = queue.popleft()
-        if node == target:
-            return node
-        for nei in neighbors(node):
-            if nei not in visited:
-                visited.add(nei)
-                queue.append((nei, depth + 1))
-                
-    return -1
-```
-
 * LC 490 - https://leetcode.com/problems/the-maze/
 ```python
 class Solution:
@@ -284,7 +281,7 @@ class Solution:
         return False
 ```
 
-### Iterative DFS of Graph
+### Iterative DFS of Graph (stack)
 * LC 559 - https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 ```python
 class Solution:
