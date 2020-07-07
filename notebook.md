@@ -20,6 +20,8 @@
 
 ## Dynamic Programming
 
+[Recursive DP (with memo)](#Recursive-DP-with-memo)
+
 [Iterative DP](#Iterative-DP)
 
 [Backtracking DP](#Backtracking-DP)
@@ -415,6 +417,28 @@ while cur:
     cur.next = prev
     prev = cur
     cur = third
+```
+
+### Recursive DP (with memo)
+
+* LC 1155 - https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+```python
+class Solution:
+    def numRollsToTarget(self, d: int, f: int, target: int) -> int:
+        memo = {}
+        
+        def dp(d, target):
+            if d == 0:
+                return 1 if target == 0 else 0
+            if (d, target) in memo:
+                return memo[(d, target)]
+            res = 0
+            for k in range(max(0, target - f), target):
+                res += dp(d - 1, k)
+            memo[(d, target)] = res
+            return res
+            
+        return dp(d, target) % (10 ** 9 + 7)
 ```
 
 
