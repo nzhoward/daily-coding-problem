@@ -26,6 +26,8 @@
 
 [Backtracking DP](#Backtracking-DP)
 
+[Prefix/Range Sum](#PrefixRange-Sum)
+
 ---
 
 ### Sliding Window/Two Pointers
@@ -738,3 +740,55 @@ class Solution:
         backtrack([], 0, 0)
         return ans
 ```
+
+### Prefix/Range Sum
+
+```
++-----+-+------+      +-------+------+     +-----+--------+     +-----+--------+
+|     | |      |      |       |      |     |     |        |     |     |        |
+|     | |      |      |       |      |     |     |        |     |     |        |
++-----+-+      |      +-------+      |     |     |        |     +-----+        |
+|     | |      |   =  |              |  +  |     |        |  -  |              | + mat[i][j]
++-----+-+      |      |              |     +-----+        |     |              |
+|              |      |              |     |              |     |              |
+|              |      |              |     |              |     |              |
++--------------+      +--------------+     +--------------+     +--------------+
+rangeSum[i+1][j+1] =  rangeSum[i][j+1]  +  rangeSum[i+1][j]  -  rangeSum[i][j]   + mat[i][j]
+
++---------------+   +--------------+   +---------------+   +--------------+   +--------------+
+|               |   |         |    |   |   |           |   |         |    |   |   |          |
+|   (r1,c1)     |   |         |    |   |   |           |   |         |    |   |   |          |
+|   +------+    |   |         |    |   |   |           |   +---------+    |   +---+          |
+|   |      |    | = |         |    | - |   |           | - |      (r1,c2) | + |   (r1,c1)    |
+|   |      |    |   |         |    |   |   |           |   |              |   |              |
+|   +------+    |   +---------+    |   +---+           |   |              |   |              |
+|        (r2,c2)|   |       (r2,c2)|   |   (r2,c1)     |   |              |   |              |
++---------------+   +--------------+   +---------------+   +--------------+   +--------------+
+```
+
+* LC 1314 - https://leetcode.com/problems/matrix-block-sum/
+```python
+class Solution:
+    def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
+        m = len(mat)
+        n = len(mat[0])
+        dp = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
+        for i in range(m):
+            for j in range(n):
+                dp[i + 1][j + 1] = dp[i + 1][j] + dp[i][j + 1] - dp[i][j] + mat[i][j]
+        
+        ans = [[0 for _ in range(n)] for _ in range(m)]
+        for i in range(m):
+            for j in range(n):
+                r1 = min(m, i + K + 1)
+                c1 = min(n, j + K + 1)
+                r2 = max(0, i - K)
+                c2 = max(0, j - K)
+                ans[i][j] = dp[r1][c1] + dp[r2][c2] - dp[r1][c2] - dp[r2][c1]
+        
+        return ans
+```
+
+* LC 304 - https://leetcode.com/problems/range-sum-query-2d-immutable
+* LC 307 - https://leetcode.com/problems/range-sum-query-mutable
+* LC 308 - https://leetcode.com/problems/range-sum-query-2d-mutable
