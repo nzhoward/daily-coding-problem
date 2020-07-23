@@ -28,6 +28,8 @@
 
 [Prefix/Range Sum](#PrefixRange-Sum)
 
+[Unbounded Knapsack](#Unbounded-Knapsack)
+
 ---
 
 ### Sliding Window/Two Pointers
@@ -792,3 +794,19 @@ class Solution:
 * LC 304 - https://leetcode.com/problems/range-sum-query-2d-immutable
 * LC 307 - https://leetcode.com/problems/range-sum-query-mutable
 * LC 308 - https://leetcode.com/problems/range-sum-query-2d-mutable
+
+### Unbounded Knapsack
+* LC 377 - https://leetcode.com/problems/combination-sum-iv
+```python
+class Solution:
+    def combinationSum4(self, nums: List[int], target: int) -> int:
+        dp = [0 for _ in range(target + 1)]
+        dp[0] = 1
+        for i in range(target + 1):
+            for num in nums:
+                if num <= i:
+                    dp[i] += dp[i - num]
+                
+        
+        return dp[-1]
+```
