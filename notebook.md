@@ -800,6 +800,9 @@ class Solution:
 * LC 308 - https://leetcode.com/problems/range-sum-query-2d-mutable
 
 ### 0/1 Knapsack
+
+Is it possible to sum up to a certain target using elements from a list? Each element can only be used once.
+
 * LC 416 - https://leetcode.com/problems/partition-equal-subset-sum/
 ```python
 class Solution:
@@ -822,6 +825,9 @@ class Solution:
 ```
 
 ### Unbounded Knapsack
+
+Is it possible to sum up to a certain target using elements from a list? Each element can be use unlimited number of times.
+
 * LC 377 - https://leetcode.com/problems/combination-sum-iv
 ```python
 class Solution:
