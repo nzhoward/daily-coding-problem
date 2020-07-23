@@ -34,6 +34,8 @@
 
 [Subsequence](#Subsequence)
 
+[Paint Fence/House](#Paint-FenceHouse)
+
 ---
 
 ### Sliding Window/Two Pointers
@@ -858,4 +860,31 @@ class Solution:
                 dp[(j, A[j] - A[i])] = dp.get((i, A[j] - A[i]), 1) + 1
         
         return max(dp.values())
+```
+
+### Paint Fence/House
+* LC 276 - https://leetcode.com/problems/paint-fence/
+```python
+class Solution:
+    def numWays(self, n: int, k: int) -> int:
+        if n == 0:
+            return 0
+        if n == 1:
+            return k
+        if n == 2:
+            return k ** 2
+        
+        dp = [0 for _ in range(n + 1)]
+        dp[0] = 0
+        dp[1] = k
+        dp[2] = k ** 2
+        
+        for i in range(3, n + 1):
+            # num_ways(i) = num_ways_diff(i) + num_ways_same(i)
+            #             = num_ways(i-1) * (k-1) + num_ways_diff(i-1)
+            #             = num_ways(i-1) * (k-1) + num_ways(i-2) * (k-1)
+            #             = (num_ways(i-1) + num_ways(i-2)) * (k-1)
+            dp[i] = (dp[i - 1] + dp[i - 2]) * (k - 1)
+        
+        return dp[-1]
 ```
