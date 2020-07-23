@@ -30,6 +30,8 @@
 
 [Unbounded Knapsack](#Unbounded-Knapsack)
 
+[Subsequence](#Subsequence)
+
 ---
 
 ### Sliding Window/Two Pointers
@@ -809,4 +811,21 @@ class Solution:
                 
         
         return dp[-1]
+```
+
+### Subsequence
+* LC 1027 - https://leetcode.com/problems/longest-arithmetic-sequence/
+```python
+class Solution:
+    def longestArithSeqLength(self, A: List[int]) -> int:
+        dp = {}
+        
+        # Iterate forward through every pair
+        for i in range(len(A)):
+            for j in range(i + 1, len(A)):
+                # key = (idx of second in pair, diff between second and first) -> (idx of first in pair, diff between second and first) + 1
+                # value = length of subsequence with this diff
+                dp[(j, A[j] - A[i])] = dp.get((i, A[j] - A[i]), 1) + 1
+        
+        return max(dp.values())
 ```
