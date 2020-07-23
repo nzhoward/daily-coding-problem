@@ -28,6 +28,8 @@
 
 [Prefix/Range Sum](#PrefixRange-Sum)
 
+[0/1 Knapsack](#01-Knapsack)
+
 [Unbounded Knapsack](#Unbounded-Knapsack)
 
 [Subsequence](#Subsequence)
@@ -796,6 +798,28 @@ class Solution:
 * LC 304 - https://leetcode.com/problems/range-sum-query-2d-immutable
 * LC 307 - https://leetcode.com/problems/range-sum-query-mutable
 * LC 308 - https://leetcode.com/problems/range-sum-query-2d-mutable
+
+### 0/1 Knapsack
+* LC 416 - https://leetcode.com/problems/partition-equal-subset-sum/
+```python
+class Solution:
+    def canPartition(self, nums: List[int]) -> bool:
+        
+        target = sum(nums)
+        if target % 2 == 1:
+            return False
+        target //= 2
+        
+        dp = [0 for _ in range(target + 1)]
+        dp[0] = 1
+        
+        for num in nums:
+            for i in range(target, -1, -1):
+                if num <= i:
+                    dp[i] = dp[i] or dp[i - num]
+        
+        return dp[-1]
+```
 
 ### Unbounded Knapsack
 * LC 377 - https://leetcode.com/problems/combination-sum-iv
