@@ -812,7 +812,7 @@ class Solution:
         
         target = sum(nums)
         if target % 2 == 1:
-            return False
+            return 0
         target //= 2
         
         dp = [0 for _ in range(target + 1)]
