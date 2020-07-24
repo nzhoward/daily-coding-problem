@@ -28,7 +28,7 @@
 
 [Prefix/Range Sum](#PrefixRange-Sum)
 
-[0/1 Knapsack](#01-Knapsack)
+[0-1 Knapsack](#01-Knapsack)
 
 [Unbounded Knapsack](#Unbounded-Knapsack)
 
@@ -801,7 +801,7 @@ class Solution:
 * LC 307 - https://leetcode.com/problems/range-sum-query-mutable
 * LC 308 - https://leetcode.com/problems/range-sum-query-2d-mutable
 
-### 0/1 Knapsack
+### 0-1 Knapsack
 
 Is it possible to sum up to a certain target using elements from a list? Each element can only be used once.
 
@@ -824,6 +824,22 @@ class Solution:
                     dp[i] = dp[i] or dp[i - num]
         
         return dp[-1]
+```
+
+* LC 474 - https://leetcode.com/problems/ones-and-zeroes/
+```python
+class Solution:
+    def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
+        dp = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
+        for st in strs:
+            c = Counter(st)
+            zeroes = c['0']
+            ones = c['1']
+            for i in range(m, zeroes - 1, -1):
+                for j in range(n, ones - 1, -1):
+                    dp[i][j] = max(1 + dp[i - zeroes][j - ones], dp[i][j])
+        
+        return dp[-1][-1]
 ```
 
 ### Unbounded Knapsack
@@ -855,7 +871,8 @@ class Solution:
         # Iterate forward through every pair
         for i in range(len(A)):
             for j in range(i + 1, len(A)):
-                # key = (idx of second in pair, diff between second and first) -> (idx of first in pair, diff between second and first) + 1
+                # key = (idx of second in pair, diff between second and first)
+                #    -> (idx of first in pair, diff between second and first) + 1
                 # value = length of subsequence with this diff
                 dp[(j, A[j] - A[i])] = dp.get((i, A[j] - A[i]), 1) + 1
         
