@@ -28,7 +28,7 @@
 
 [Prefix/Range Sum](#PrefixRange-Sum)
 
-[0-1 Knapsack](#01-Knapsack)
+[0-1 Knapsack](#0-1-Knapsack)
 
 [Unbounded Knapsack](#Unbounded-Knapsack)
 
