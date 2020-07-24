@@ -226,6 +226,26 @@ class Solution:
         return res
 ```
 
+* LC 662 - https://leetcode.com/problems/maximum-width-of-binary-tree/
+```python
+class Solution:
+    def widthOfBinaryTree(self, root: TreeNode) -> int:
+        
+        queue = deque([(root, 0)])
+        ans = 0
+        while queue:
+            head = queue[0][1]
+            for i in range(len(queue)):
+                node, col = queue.popleft()
+                if node.left:
+                    queue.append((node.left, 2 * col))
+                if node.right:
+                    queue.append((node.right, 2 * col + 1))
+            ans = max(ans, col - head + 1)
+        
+        return ans
+```
+
 * LC 513 - https://leetcode.com/problems/find-bottom-left-tree-value/
 ```python
 class Solution:
