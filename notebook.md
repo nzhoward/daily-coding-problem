@@ -18,6 +18,8 @@
 
 [Singly Linked List Reversal](#Singly-Linked-List-Reversal)
 
+[Doubly Linked List Reversal](#Doubly-Linked-List-Reversal)
+
 ## Dynamic Programming
 
 [Recursive DP (with memo)](#Recursive-DP-with-memo)
@@ -469,6 +471,27 @@ while cur:
     cur.next = prev
     prev = cur
     cur = third
+
+head = prev
+```
+
+### Doubly Linked List Reversal
+```python
+cur = head
+temp = None
+          
+# Swap next and prev for all nodes of  
+# doubly linked list 
+while cur: 
+    temp = cur.prev
+    cur.prev = cur.next
+    cur.next = temp
+    cur = cur.prev
+    
+# Before changing head, check for the cases like
+# empty list and list with only one node
+if temp is not None:
+    head = temp.prev 
 ```
 
 ### Recursive DP (with memo)
