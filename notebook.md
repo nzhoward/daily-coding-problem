@@ -555,7 +555,9 @@ class Solution:
 
 
 ### Iterative DP
+
 https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
+https://leetcode.com/discuss/general-discussion/475924/my-experience-and-notes-for-learning-dp
 
 * LC 1143 - https://leetcode.com/problems/longest-common-subsequence/
 ```python
@@ -602,6 +604,26 @@ class Solution:
 
 
         return dp[-1][-1]
+```
+
+* LC 64 - https://leetcode.com/problems/minimum-path-sum/
+```python
+class Solution:
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        m = len(grid)
+        n = len(grid[0])
+        
+        for i in range(1, n):
+            grid[0][i] += grid[0][i - 1]
+        
+        for i in range(1, m):
+            grid[i][0] += grid[i - 1][0]
+        
+        for i in range(1, m):
+            for j in range(1, n):
+                grid[i][j] = min(grid[i - 1][j], grid[i][j - 1]) + grid[i][j]
+
+        return grid[-1][-1]
 ```
 
 
