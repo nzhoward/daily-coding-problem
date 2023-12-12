@@ -10,6 +10,8 @@
 
 [Eliminating Leaves to Find Roots of MHTs](#Eliminating-Leaves-to-Find-Roots-of-MHTs)
 
+[Iterative Inorder Traversal of Binary Tree](#Iterative-Inorder-Traversal-of-Binary-Tree)
+
 ## Sorting
 
 [Merge Sort Singly Linked List](#Merge-Sort-Singly-Linked-List)
@@ -413,6 +415,36 @@ class Solution:
                                 queue.append((tx, ty))
         
         return ans
+```
+
+### Iterative Inorder Traversal of Binary Tree
+* LC 94 - https://leetcode.com/problems/binary-tree-inorder-traversal/
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        output = []
+        if not root:
+            return output
+        stack = []
+        cur = root
+        while True:
+            if cur:
+                stack.append(cur)
+                cur = cur.left
+            elif stack:
+                cur = stack.pop()
+                output.append(cur.val)
+                cur = cur.right
+            else:
+                break
+        
+        return output
 ```
 
 
